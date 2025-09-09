@@ -1,19 +1,82 @@
-header{
-    background-color: darkred;
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+}
 
+header{
+    background-color:cadetblue;
+}
 #produtos{
-    background-color:beige;
+    background-color: darkcyan;
     height: 700px;
 }
 #parceiros{
-    background-color: beige;
+    background-color: cadetblue;
     height: 700px;
 }
 #historia{
-    background-color: beige;
+    background-color:darkcyan;
     height: 700px;
 }
 #cadastro{
-    background-color: beige;
+    background-color: cadetblue;
     height: 700px;
+}
+.logotipo{
+    height: 200px;
+}
+
+.menu{
+    background-color: azure;
+    padding: 15px;
+}
+
+.menu a{
+    text-decoration:none;
+    font-size: larger;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    transition: 0.5s;
+    padding: 5px;
+}
+
+.menu a:hover{
+    color: azure;
+    text-decoration: underline;
+    background-color: black;
+    border-radius: 3px;
+}
+
+.menu li{
+    display: inline;
+    padding: 20px;
+}
+
+.texto_1 p{
+    /*border: solid red 2px; */
+    text-align: justify;
+
+}
+.texto_1:hover{
+    background-color: cadetblue;
+}
+
+.card{
+    border: solid 2px red;
+    width: 300px;
+    height: 500px;
+}
+
+.imagecard{
+    width: 200px;
+}
+.preco{
+    color: azure;
+    font-size: larger;
+
 }
